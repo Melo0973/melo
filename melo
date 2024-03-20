@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #0B0B0B;
+}
+
+.top{
+    background-color: rgb(82, 77, 77);
+    padding: 15px;
+}
+.topul{
+    color: white;
+    text-align: center;
+}   
+.topul li{
+    display: inline;
+    padding: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    float: right;
+    margin: -14px;
+}
+.middle{
+    background-color: white;
+    padding: 28px;
+}
+.middleul{
+    font-family: 'Times New Roman';
+    color: red;
+    font-size: 20px;
+    padding:0 50px;
+}
+.middleul li{
+    display: inline;
+}
+.right{
+    float: right;
+    padding: 0 78px;
+}
+.left{
+    float:left;
+    padding: 0 58px;
+}
+.bottom{
+    background-color: rgb(201, 226, 246);
+    padding: 28px;
+}
+.bottomul{
+    font-family: 'Times New Roman';
+    color: red;
+    font-size: 20px;
+    padding: 0 62px;
+}
+.bottomul li{
+    display: inline;
+}
+.big{
+    background: red;
+    overflow: auto;
+    padding-bottom: 98px ;
+}
+.small{
+    background: darkred;
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 90px;
+}
+.small iframe{
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.small div{
+    width: 600px;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+    display: inline-block;
+}
+.small h1{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.small p{
+    margin-top: 60px;
+    font-size: medium;
+}
+.small button{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    margin-top: 60px;
+    height: 40px;
+    width: 140px;
+}
+.img{
+    margin: 199px;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harvard University</title>
+    <link rel="stylesheet" href="./new.css">
+</head>
+<body>
+	div>Content for New Div Tag Goes Here</div>
+<div class="top">
+    <ul class="topul">
+            <li><strong>Faculty</strong></li>
+            <li><strong>Staff</strong></li>
+            <li><strong>Students</strong></li>
+            <li><strong>Alumni</strong></li>
+            <li><strong>Parents</strong></li>
+            <li><strong>Visitors</strong></li>
+            <li><strong>Media</strong></li>
+        </ul>    
+        <input type="search" name="search" id="search" class="search">
+    </div>
+    <div class="middle">
+        <ul class="middleul">
+            <li class="left">About Harvard</li>
+            <li class="left"> Admissions & Aid</li>
+            <li class="right">On Campus</li>
+            <li class="right">Schools</li>
+        </ul>
+    </div>
+    <div class="bottom">
+        <ul class="bottomul">
+            <li class="left">Gazette News</li>
+            <li class="left">Events</li>
+            <li class="right">Give</li>
+            <li class="right">Harvard Campaign</li>
+        </ul>
+    </div>
+    <article class="big">
+        <div class="small">
+            <iframe width="600" height="355" src="https://www.youtube.com/embed/xtbxY7EqXRU?si=H_S-J6MBa26MHm8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div>
+                <h1>Running as a tradition</h1>
+                <p>
+                    Before the Boston Merathon, a Harvard conference focuses on achievements of Native <br> Americans in the sport
+                </p>
+                <button type="submit">READ STORY</button>
+            </div>
+        </div>
+    </article>
+</body>
+</html>
